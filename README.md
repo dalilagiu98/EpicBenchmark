@@ -10,7 +10,6 @@ The goal of this project is to create a copy of EPICODE's Benchmark app that is 
 
 🧠👀 Make your quiz: Test your knowledge in computer science with this copy of Epicode's Benchmark app with ten questions. <br/>
 ⭐️💬 Leave a feedback: Once you received your result you can leave us a feedback with an optional comment. <br/>
-🔗🚀 Connect to Epicode: At the end there's a direct link to Epicode's web page. <br/>
 
 ## Techonologies Used 💻
 
