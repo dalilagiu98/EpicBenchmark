@@ -327,9 +327,9 @@ const handleAnswer = function (userAnswer) {
   const currentQuestion = questions[questionNumber];
   if (userAnswer === currentQuestion.correct_answer) {
     score++;
-    alert("Risposta corretta! +1 punto");
+    alert("Correct answer! +1 point");
   } else {
-    alert("Risposta errata!");
+    alert("Wrong answer!");
   }
 
   localStorage.setItem("score", score);
