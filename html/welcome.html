@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome Page</title>
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/css/welcome.css" />
+  </head>
+  <body>
+    <header>
+      <div id="logodiv">
+        <img src="/assets/epicode_logo.png" />
+      </div>
+    </header>
+    <main>
+      <section>
+        <h1>Welcome to</h1>
+        <h2>your exam</h2>
+        <h3 id="instructions">Instructions</h3>
+        <p class="text">
+          We don't expect most engeneers to know the answers to all of these
+        </p>
+        <p class="subtext">
+          questions, so don't worry if you're unsure of a few of them.
+        </p>
+      </section>
+      <article>
+        <ul id="list">
+          <li>
+            Each question is <span class="bold"> timed </span> and can only be
+            <span class="bold"> answered once.</span>
+          </li>
+          <li>
+            Changing broswer tab or opening other windows will
+            <span class="bold">invalidate the question.</span>
+          </li>
+          <li>
+            This exam will take approx. <span class="bold">0-5 minutes.</span>
+          </li>
+        </ul>
+      </article>
+    </main>
+    <footer>
+      <article>
+        <form id="checkp">
+          <p>
+            <input type="checkbox" required /> I promise to answer myself
+            without help from anyone
+          </p>
+        </form>
+        <a href="#">
+          <button
+            type="submit"
+            id="button"
+            form="checkp"
+            onclick="if(document.getElementById('checkp').checkValidity()) window.location.href = './benchmarkpage.html'; return false;"
+          >
+            PROCEED
+          </button>
+        </a>
+      </article>
+    </footer>
+  </body>
+</html>
