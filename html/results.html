@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="#" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <title>Results</title>
+  </head>
+  <body>
+    <header>
+      <img src="/assets/epicode_logo.png" />
+    </header>
+    <main>
+      <div id="title">
+        <h1>Results</h1>
+        <h2>The summary of your answers:</h2>
+      </div>
+      <article>
+        <div class="value">
+          <h2>Correct</h2>
+          <h3 id="percentagecorrect"></h3>
+          <p id="questionscorrect"></p>
+        </div>
+        <div id="donut-container">
+          <div id="absolute">
+            <div id="TitleInside"></div>
+            <div id="micro"></div>
+          </div>
+          <canvas id="myChart" style="height: 500px; width: 700px"></canvas>
+        </div>
+        <div class="value">
+          <h2>Wrong</h2>
+          <h3 id="percentagewrong"></h3>
+          <p id="questionswrong"></p>
+        </div>
+      </article>
+    </main>
+    <footer>
+      <a href="./feedbackpage.html">
+        <button>RATE US</button>
+      </a>
+    </footer>
+    <script src="/js/results.js"></script>
+  </body>
+</html>
