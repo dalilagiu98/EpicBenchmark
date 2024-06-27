@@ -305,7 +305,7 @@ const displayQuestion = function () {
   } else {
     const percentage = calculatePercentage(score, questions.length);
     localStorage.setItem("quizPercentage", percentage);
-    window.location.href = "resultspage.html";
+    window.location.href = "results.html";
   }
 };
 //Funzione per visualizzare la prossima domanda
@@ -319,7 +319,7 @@ const displayNextQuestion = function () {
     // Il gioco è terminato, mostra il punteggio finale
     const percentage = calculatePercentage(score, questions.length);
     localStorage.setItem("quizPercentage", percentage);
-    window.location.href = "resultspage.html";
+    window.location.href = "results.html";
     resetTimerAndCountDown(); // Resetta il timer quando il gioco è completato
   }
 };
